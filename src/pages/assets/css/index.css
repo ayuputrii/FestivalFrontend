@@ -1,0 +1,12 @@
+.inputHome {
+  border-radius: 15px;
+  box-shadow: 10px 15px 8px 0 rgba(0, 0, 0, 0.2),
+    10px 7px 20px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(153, 98, 98, 0.74);
+  width: 70%;
+  margin: 70px 45px auto;
+  border: rgba(189, 110, 110, 0.2);
+  padding: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
