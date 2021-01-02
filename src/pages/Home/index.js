@@ -18,6 +18,13 @@ const Home = () => {
                   Logout
                 </button>
               </Link>
+              <td>
+                <Link to="/detailadmin" className="bold primary">
+                  <button className="form-input-btn1" type="submit">
+                    Admin
+                  </button>
+                </Link>
+              </td>
             </td>
           </tr>
         </div>

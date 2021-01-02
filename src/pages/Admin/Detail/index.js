@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import SearchIcon from "../../assets/icons/search.svg";
 import { Table } from "react-bootstrap";
 import imgImage from "../../assets/svg/img-3.svg";
 import { Link } from "react-router-dom";

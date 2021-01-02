@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./register.css";
 import RegisterForm from "./registerForm";
 import imgImage from "../assets/svg/login.svg";

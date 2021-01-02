@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import { PersistGate } from "redux-persist/lib/integration/react";
 import { persistor } from "./redux/store";
-import PrivateRoute from "./components/PrivateRoute";
-import PrivateRouteAdmin from "./components/PrivateRouteAdmin";
+// import PrivateRoute from "./components/PrivateRoute";
+// import PrivateRouteAdmin from "./components/PrivateRouteAdmin";
 import PublicRoute from "./components/PublicRoute";
 import "./App.css";
 

@@ -1,14 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import useForm from "./useForm";
 import validate from "../../../helpers/validateCreate";
 import "./css/create.css";
 const CreateAdmin = ({ submitForm }) => {
-  const [isSubmitted, setIsSubmitted] = useState(false);
-
-  function submitForm() {
-    setIsSubmitted(true);
-  }
   const { handleChange, handleSubmit, values, errors } = useForm(
     submitForm,
     validate

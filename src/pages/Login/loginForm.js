@@ -39,7 +39,7 @@ const LoginForm = ({ submitForm }) => {
           {errors.password && <p>{errors.password}</p>}
         </div>
         <button className="form-input-btn" type="submit">
-          <Link to="/detailadmin" className="bold primary">
+          <Link to="/home" className="bold primary">
             Login
           </Link>
         </button>
